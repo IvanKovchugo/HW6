@@ -15,8 +15,8 @@ public class Main {
         animals[2].swim(0);
 
         Animals[] dog = new Dog[2];
-        dog[0] = new Dog("Арагорн", 100, 5);
-        dog[1] = new Dog("Бобик", 500, 10);
+        dog[0] = new Dog("Арагорн");
+        dog[1] = new Dog("Бобик");
         dog[0].swim(5);
         dog[0].run(150);
         dog[1].run(500);
