@@ -2,10 +2,8 @@ package HW6;
 
 public class Dog extends Animals{
 
-    public Dog(String name, int range, int swimranged) {
+    public Dog(String name) {
         this.name = name;
-        this.range = range;
-        this.swimranged = swimranged;
     }
 
     @Override
