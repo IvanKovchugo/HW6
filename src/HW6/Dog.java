@@ -2,19 +2,21 @@ package HW6;
 
 public class Dog extends Animals{
 
-    public Dog(String name) {
+    public Dog(String name, int range, int swimranged) {
         this.name = name;
+        this.range = range;
+        this.swimranged = swimranged;
     }
 
     @Override
 
-    public void run () {
-        System.out.println(name + " пробежал 500 метров");
+    public void run (int range) {
+        System.out.println(name + " пробежал " + range + " метров");
     }
 
     @Override
 
-    public void swim() {
-        System.out.println(name + "  проплыл 10 метров");
+    public void swim(int swimrange) {
+        System.out.println(name + " проплыл " + swimrange + " метров");
     }
 }
